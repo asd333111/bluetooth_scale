@@ -1,0 +1,20 @@
+{
+  "config": {
+    "flow_title": "Renpho BLE Scale ({name})",
+    "step": {
+      "user": {
+        "description": "Select your Renpho scale. Step on the scale to wake it up if it's not listed.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "description": "Found Renpho BLE Scale: {name}. Confirm to add it."
+      }
+    },
+    "abort": {
+      "already_configured": "Device is already configured",
+      "no_devices_found": "No Renpho scales found. Make sure the scale is awake (step on it)."
+    }
+  }
+}
